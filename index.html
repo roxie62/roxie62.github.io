@@ -79,7 +79,7 @@
               <br>
               <em>NeurIPS</em>, 2022
               <br>
-              <a href="data/poster_embed_emulate.pdf">poster</a> /
+              <a href="data/poster_embed_and_emulate.pdf">poster</a> /
               <a href="https://arxiv.org/abs/2211.01554">arXiv</a>
               <p></p>
               <p>
@@ -88,42 +88,45 @@
             </td>
           </tr>
 
-          <tr onmouseout="pnf_stop()" onmouseover="pnf_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
-          <div class="two" id='pnf_image'>
-            <img src='images/pnf_before.jpg' width="160"></div>
-          <img src='images/pnf_after.jpg' width="160">
-          </div>
-          <script type="text/javascript">
-          function pnf_start() {
-            document.getElementById('pnf_image').style.opacity = "1";
-          }
+          <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='samurai_image'>
+                  <img src='images/samurai_after.jpg' width="160"></div>
+                <img src='images/samurai_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function samurai_start() {
+                  document.getElementById('samurai_image').style.opacity = "1";
+                }
 
-          function pnf_stop() {
-            document.getElementById('pnf_image').style.opacity = "0";
-          }
-          pnf_stop()
-          </script>
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="TODO">
-          <papertitle>Polynomial Neural Fields for Subband Decomposition</papertitle>
-          </a> <br>
-          <a href="https://www.guandaoyang.com/">Guandao Yang*</a>,
-          <a href="https://sagiebenaim.github.io/">Sagie Benaim*</a>,
-          <a href="https://varunjampani.github.io/">Varun Jampani</a>,
-          <a href="https://www.kylegenova.com/">Kyle Genova</a>,
-          <strong>Jonathan T. Barron</strong>,
-          <a href="https://www.cs.princeton.edu/~funk/">Thomas Funkhouser</a>,
-          <a href="http://home.bharathh.info/">Bharath Hariharan</a>,
-          <a href="https://sergebelongie.github.io/">Serge Belongie</a>
-          <br>
-          <em>NeurIPS</em>, 2022
-          <p>
-          Representing neural fields as a composition of manipulable and interpretable components lets you do things like reason about frequencies and scale.
-          </p>
-          </td>
+                function samurai_stop() {
+                  document.getElementById('samurai_image').style.opacity = "0";
+                }
+                samurai_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://markboss.me/publication/2022-samurai/">
+                <papertitle>Pure Exploration in Kernel and Neural Bandits</papertitle>
+              </a>
+              <br>
+              <a href="https://yinglunz.com/">Yinglun Zhu*</a>,
+              <a href="https://sites.google.com/view/drzhou">Dongruo Zhou*</a>,
+              <strong>Ruoxi Jiang*</strong>,
+              <a href="https://web.cs.ucla.edu/~qgu/">Quanquan Gu</a>,
+              <a href="https://willett.psd.uchicago.edu/">Rebecca Willett</a>,
+              <a href="https://nowak.ece.wisc.edu/">Robert Nowak</a>,
+              <br>
+              <em>NeurIPS</em>, 2021
+              <br>
+              <a href="data/slides_pure_exploration.pdf">slides</a> /
+              <a href="https://arxiv.org/pdf/2106.12034.pdf">arXiv</a>
+              <p></p>
+              <p>
+                To overcome the curse of dimensionality, we propose to adaptively embed the feature representation of each arm into a lower-dimensional space and carefully deal with the induced model misspecifications.
+              </p>
+            </td>
           </tr>
 
 
