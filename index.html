@@ -62,11 +62,11 @@
               </div>
               <script type="text/javascript">
                 function embed_start() {
-                  document.getElementById('embed_image').style.opacity = "1";
+                  document.getElementById('emulator_image').style.opacity = "1";
                 }
 
                 function embed_stop() {
-                  document.getElementById('embed_image').style.opacity = "0";
+                  document.getElementById('emulator_image').style.opacity = "0";
                 }
                 embed_stop()
               </script>
@@ -77,20 +77,61 @@
               </a>
               <br>
               <strong>Ruoxi Jiang*</strong>,
-              <a href="https://yinglunz.com/">Peter Y. Lu*</a>,
-              <a href="https://sites.google.com/view/drzhou">Elena Orlova</a>,
+              <a href="https://peterparity.github.io/">Peter Y. Lu*</a>,
+              <a href="https://elena-orlova.github.io/">Elena Orlova</a>,
               <a href="https://willett.psd.uchicago.edu/">Rebecca Willett</a>
               <br>
               <em>NeurIPS</em>, 2023
               <br>
-              <a href="data/poster_embed_and_emulate.pdf">poster</a> /
-              <a href="https://arxiv.org/abs/2211.01554">arXiv</a>
+              <!-- <a href="data/poster_embed_and_emulate.pdf">poster</a> / -->
+              <a href="https://github.com/roxie62/neural_operators_for_chaos/blob/main/poster_slides/poster.pdf">poster</a>
               <p></p>
               <p>
-                We are interested in chaotic dynamical systems with noisy observations, and introduce two novel approaches to preserve long-term statistics of chaotic attractors.
+                We introduce two novel approaches: Optimal-transport(OT) based method with prior knowledge of the phsycial property; and Contrastive learning (CL) based method in absence of prior knowledge, to match long-term statistics of chaotic dynamical systems with noisy observations.
               </p>
             </td>
           </tr>
+
+          <tr onmouseout="schordinger_stop()" onmouseover="schordinger_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='schordinger_image'>
+                  <img src='images/DSM.jpg' width="220"></div>
+                <img src='images/DSM.jpg' width="220">
+              </div>
+              <script type="text/javascript">
+                function embed_start() {
+                  document.getElementById('schordinger_image').style.opacity = "1";
+                }
+
+                function embed_stop() {
+                  document.getElementById('schordinger_image').style.opacity = "0";
+                }
+                embed_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle; margin-left:auto">
+              <a href="https://arxiv.org/abs/2305.19685">
+                <papertitle>Training neural operators to preserve invariant measures of chaotic attractors</papertitle>
+              </a>
+              <br>
+              <a href="https://elena-orlova.github.io/">Elena Orlova</a>,
+              <a href="https://scholar.google.ru/citations?user=OES5pK4AAAAJ&hl=en/">Aleksei Ustimenko</a>,
+              <strong>Ruoxi Jiang</strong>,
+              <a href="https://peterparity.github.io/">Peter Y. Lu</a>,
+              <a href="https://willett.psd.uchicago.edu/">Rebecca Willett</a>
+              <br>
+              <em>In review</em>
+              <br>
+              <!-- <a href="data/poster_embed_and_emulate.pdf">poster</a> / -->
+              <!-- <a href="https://github.com/roxie62/neural_operators_for_chaos/blob/main/poster_slides/poster.pdf">poster</a> -->
+              <p></p>
+              <p>
+                We develop a novel deep-learning-based approach to solve time-evolving Schrödinger equation, with inspiration from stochastic mechanics and diffusion models.
+              </p>
+            </td>
+          </tr>
+
 
           <tr onmouseout="embed_stop()" onmouseover="embed_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
