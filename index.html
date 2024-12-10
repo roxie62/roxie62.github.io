@@ -88,6 +88,44 @@
             </td>
           </tr>
 
+          <tr onmouseout="nested_start()" onmouseover="nested_end()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='nested_image'>
+                  <img src='images/nested_scaling.png' width="220"></div>
+                <img src='images/nested_img.png' width="220">
+              </div>
+              <script type="text/javascript">
+                function nested_start() {
+                  document.getElementById('nested_image').style.opacity = "1";
+                }
+
+                function nested_end() {
+                  document.getElementById('nested_image').style.opacity = "0";
+                }
+                nested_end()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle; margin-left:auto">
+              <a href="https://arxiv.org/abs/2412.05984">
+                <papertitle>Nested Diffusion Models Using Hierarchical Latent Priors</papertitle>
+              </a>
+              <br>
+              <a href="https://xiao7199.github.io/">Xiao Zhang*</a>, 
+              <strong>Ruoxi Jiang*</strong>, 
+              <a href="https://scholar.google.co.il/citations?user=SacEpXoAAAAJ&hl=en">Will Gao</a>
+              <a href="https://willett.psd.uchicago.edu/">Rebecca Willett</a>, 
+              <a href="https://people.cs.uchicago.edu/~mmaire/">Michael Maire</a>
+              <br>
+              <em>In review</em>
+              <br>
+              <p></p>
+              <p>
+                We introduce nested diffusion models, an efficient and powerful hierarchical generative framework that substantially enhances the generation quality of diffusion models, particularly for images of complex scenes.
+              </p>
+            </td>
+          </tr>
+
           <tr onmouseout="decayed_start()" onmouseover="decayed_end()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -113,6 +151,7 @@
               <br>
               <a href="https://xiao7199.github.io/">Xiao Zhang*</a>, 
               <strong>Ruoxi Jiang*</strong>, 
+              <a href="https://scholar.google.co.il/citations?user=SacEpXoAAAAJ&hl=en">Will Gao</a>
               <a href="https://willett.psd.uchicago.edu/">Rebecca Willett</a>, 
               <a href="https://people.cs.uchicago.edu/~mmaire/">Michael Maire</a>
               <br>
