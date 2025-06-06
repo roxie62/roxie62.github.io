@@ -51,7 +51,46 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          
+
+	          <tr onmouseout="emulators_start()" onmouseover="emulators_end()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='emulators_image'>
+                  <img src='images/emulators.png' width="220"></div>
+                <img src='images/emulators_long_term.png' width="220">
+              </div>
+              <script type="text/javascript">
+                function emulators_start() {
+                  document.getElementById('emulators_image').style.opacity = "1";
+                }
+
+                function emulators_end() {
+                  document.getElementById('eande_image').style.opacity = "0";
+                }
+                eande_end()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle; margin-left:auto">
+              <a href="https://arxiv.org/abs/2506.04528">
+                <papertitle>Hierarchial Implicit Neural Emulators</papertitle>
+              </a>
+              <br>
+              <strong>Ruoxi Jiang*</strong>,
+	      <a href="https://xiao7199.github.io/">Xiao Zhang</a>, 
+	      <a href="https://scholar.google.co.in/citations?user=buVddBgAAAAJ&hl=en">Karan Jakhar</a>, 
+              <a href="https://peterparity.github.io/">Peter Y. Lu</a>,
+	      <a href="https://cam.uchicago.edu/people/profile/pedram-hassanzadeh/">Pedram Hassanzadeh</a>,
+	      <a href="https://people.cs.uchicago.edu/~mmaire/">Michael Maire</a>
+              <a href="https://willett.psd.uchicago.edu/">Rebecca Willett</a>
+              <br>
+              <em>In review</em>
+              <br>
+              <p></p>
+              <p>
+                We propose a novel emulator that uses an augmented state built from a hierarchy of coarse-grained representations of future states. This approach captures multiscale interactions and — by autoregressively applying the emulator to the augmented state — efficiently mimics the iterative refinement mechanism of implicit solvers, achieving better accuracy and stability.
+              </p>
+            </td>
+		
           <tr onmouseout="eande_start()" onmouseover="eande_end()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
